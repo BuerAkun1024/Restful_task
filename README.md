@@ -40,18 +40,18 @@
 ## Postman测试截图
 
 * 接口：http://localhost:8080/api/taskALL   GET
-
-![https://github.com/BuerAkun1024/Restful_task/blob/master/GET.png]()
+ 
+ ![pic](https://github.com/BuerAkun1024/Restful_task/blob/master/GET.png)
 
 * 接口:  http://localhost:8080/api/tasks       POST
 
-![https://github.com/BuerAkun1024/Restful_task/blob/master/POST.png]()
+![pic](https://github.com/BuerAkun1024/Restful_task/blob/master/POST.png)
 
 * 接口:  http://localhost:8080/api/tasks?taskId=3     GET
 
-![https://github.com/BuerAkun1024/Restful_task/blob/master/GETbyID.png]()
+![pic](https://github.com/BuerAkun1024/Restful_task/blob/master/GETbyID.png)
 
 * 接口：http://localhost:8083/api/tasks?taskId=4     DELETE
 
-![https://github.com/BuerAkun1024/Restful_task/blob/master/DELETE.png]()
+![pic](https://github.com/BuerAkun1024/Restful_task/blob/master/DELETE.png)
 
