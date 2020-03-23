@@ -1,6 +1,7 @@
 package com.example.restful.pojo;
 
-import java.text.SimpleDateFormat;
+
+import java.sql.Timestamp;
 
 public class Task {
 
@@ -8,12 +9,12 @@ public class Task {
 
     private String content;
 
-    private SimpleDateFormat createdTime;
+    private java.sql.Timestamp createdTime;
 
     public Task(){
     }
 
-    public Task(int id, String content,SimpleDateFormat createdTime) {
+    public Task(int id, String content,java.sql.Timestamp createdTime) {
         super();
         this.id = id;
         this.content = content;
@@ -35,11 +36,11 @@ public class Task {
         this.content = content;
     }
 
-    public SimpleDateFormat getCreatedTime() {
+    public java.sql.Timestamp getCreatedTime() {
         return createdTime;
     }
 
-    public void setCreatedTime(SimpleDateFormat createdTime) {
+    public void setCreatedTime(java.sql.Timestamp createdTime) {
         this.createdTime = createdTime;
     }
 }
